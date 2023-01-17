@@ -1,0 +1,10 @@
+user200@server103:~$ screen -ls
+There are screens on:
+        1055163.pts-1.server103 (11.01.2023 19:18:55)   (Detached)
+        995415.pts-0.server103  (11.01.2023 18:44:36)   (Detached)
+        28224.pts-1.server103   (11.01.2023 09:24:17)   (Detached)
+3 Sockets in /run/screen/S-user200.
+
+
+For kill a screen session
+screen -r  1055163.pts-1.server103
