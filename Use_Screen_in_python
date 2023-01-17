@@ -6,5 +6,30 @@ There are screens on:
 3 Sockets in /run/screen/S-user200.
 
 
-For kill a screen session
+#For kill a screen session
 screen -r  1055163.pts-1.server103
+
+
+#start screen
+screen
+conda activate MyConda
+python3 myapp.py
+
+
+#create 
+conda create --name myconda
+
+conda env list
+# conda environments:
+#
+base                  *  /home/user200/miniconda3
+ASR                      /home/user200/miniconda3/envs/ASR
+FarhadTTS                /home/user200/miniconda3/envs/FarhadTTS
+TTS                      /home/user200/miniconda3/envs/TTS
+myconda                  /home/user200/miniconda3/envs/myconda
+tf15                     /home/user200/miniconda3/envs/tf15
+ttskurdish               /home/user200/miniconda3/envs/ttskurdish
+
+conda activate  myconda
+user200@server103:~$ conda activate myconda
+(myconda) user200@server103:~$
