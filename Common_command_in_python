@@ -1,2 +1,7 @@
+#for view list of insatll library
 pip list
 pip list | grep Library_Name
+
+
+#for install lib
+pip install Lib_name==version
