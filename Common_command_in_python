@@ -8,3 +8,6 @@ pip install Lib_name==version
 
 
 sudo apt update && sudo apt upgrade
+
+
+conda create -n yourenvname python=x.x anaconda
