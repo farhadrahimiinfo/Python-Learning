@@ -5,3 +5,6 @@ pip list | grep Library_Name
 
 #for install library
 pip install Lib_name==version
+
+
+sudo apt update && sudo apt upgrade
