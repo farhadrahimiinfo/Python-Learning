@@ -11,3 +11,9 @@ sudo apt update && sudo apt upgrade
 
 
 conda create -n yourenvname python=x.x anaconda
+
+
+#Using netstat to list open ports
+#Type the following netstat command
+sudo netstat -tulpn | grep LISTEN
+
