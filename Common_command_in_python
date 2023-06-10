@@ -17,3 +17,10 @@ conda create -n yourenvname python=x.x anaconda
 #Type the following netstat command
 sudo netstat -tulpn | grep LISTEN
 
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+%cd drive/My Drive/TTS
+                                
+
