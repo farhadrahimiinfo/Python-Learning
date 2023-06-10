@@ -17,10 +17,13 @@ conda create -n yourenvname python=x.x anaconda
 #Type the following netstat command
 sudo netstat -tulpn | grep LISTEN
 
-
+# read from google drive 
 from google.colab import drive
 drive.mount('/content/drive')
 
-%cd drive/My Drive/TTS
+%cd drive/MyDrive/Myfolder
+
+!unzip MyFiles.zip -d /content/drive/MyDrive/Myfolder
+
                                 
 
